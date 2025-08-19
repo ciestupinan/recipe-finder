@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme {
+  --color-neutral-100: #f6f5f1;
+  --color-neutral-200: #e036e3;
+  --color-neutral-300: #D0DCD9;
+  --color-neutral-600: #395852;
+  --color-neutral-900: #163A34;
+  --color-neutral-0: #ffffff;
+  --color-orange: #FE9F6B;
+  --color-teal: #49AC9B;
+  --color-indigo: #697DDB;
+}
+
+@layer base {
+  @font-face {
+    font-family: Nunito Sans;
+    src: url(/Users/cristinaestupinan/src/recipe-finder/src/assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf) format("ttf");
+  }
+}
