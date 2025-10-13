@@ -58,15 +58,25 @@ const Homepage = () => {
       </div>
       <div className="flex justify-center mt-[var(--spacing-1200)] mb-[var(--spacing-1200)] text-left">
         <div className="flex w-[1192px] gap-[var(--spacing-600)]">
-        <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center">
             <h2>Built for real life</h2>
-            <h5 className="mt-[var(--spacing-250)]">Cooking shouldn’t be complicated. These recipes come in under 30 minutes of active time, fit busy schedules, and taste good enough to repeat.</h5>
-            <h5 className="mt-[var(--spacing-250)]">Whether you’re new to the kitchen or just need fresh ideas, we’ve got you covered.</h5>
+            <h5 className="mt-[var(--spacing-250)]">
+              Cooking shouldn’t be complicated. These recipes come in under 30
+              minutes of active time, fit busy schedules, and taste good enough
+              to repeat.
+            </h5>
+            <h5 className="mt-[var(--spacing-250)]">
+              Whether you’re new to the kitchen or just need fresh ideas, we’ve
+              got you covered.
+            </h5>
+          </div>
+          <div>
+            <img
+              className="rounded-md"
+              src="src/assets/images/image-home-real-life-large.webp"
+            />
+          </div>
         </div>
-        <div className="">
-            <img className="rounded-md" src="src/assets/images/image-home-real-life-large.webp" />
-        </div>
-      </div>
       </div>
     </div>
   );
