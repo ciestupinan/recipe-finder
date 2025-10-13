@@ -23,6 +23,25 @@
 
   --font-nunito: Nunito, "sans-serif";
   --font-nunito-sans: Nunito Sans, "sans-serif";
+
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-125: 10px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+  --spacing-1200: 96px;
+  --spacing-1400: 112px;
+  --spacing-1600: 128px;
+  --spacing-1800: 140px;
 }
 
 h1 {
@@ -78,15 +97,15 @@ h5 {
   font-size: 20px;
   line-height: 140%;
   letter-spacing: -0.5px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-neutral-900);
 }
 
 h6 {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.3px;
   font-weight: 400;
   color: var(--color-neutral-900);
 }
