@@ -3,7 +3,7 @@ import { Button } from "../@/components/ui/button";
 const Homepage = () => {
   return (
     <div className="bg-[var(--color-neutral-100)] w-full flex flex-col justify-center text-center">
-      <div className="mb-[var(--spacing-150)]">
+      <div className="mb-[var(--spacing-150)] mt-[var(--spacing-1000)]">
         <h1>Healthy meals, zero fuss</h1>
       </div>
       <div className="flex justify-center mb-[var(--spacing-500)]">
