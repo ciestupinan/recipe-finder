@@ -49,7 +49,7 @@ const Navbar = () => {
                     ))}
                   </ul>
                   <div className="flex items-center mt-[var(--spacing-150)]">
-                    <Button>Browse recipes</Button>
+                    <Button className="w-full">Browse recipes</Button>
                   </div>
                 </div>
                 <Popover.Arrow className="PopoverArrow" />
