@@ -1,14 +1,16 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
-import FooterA from "./components/FooterA";
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
       <Homepage />
-      <FooterA />
+      <CallToAction />
+      <Footer />
     </>
   );
 }

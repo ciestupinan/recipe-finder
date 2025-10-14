@@ -1,5 +1,5 @@
 import { Button } from "../../@/components/ui/button";
-import Logo from "../src/assets/images/logo.svg";
+import Logo from "../assets/images/logo.svg";
 const Navbar = () => {
   return (
     <div className="bg-[var(--color-neutral-100)] w-full flex justify-between pl-[60px] pr-[60px] pt-[20px] pb-[20px]">

@@ -1,6 +1,6 @@
 import { Button } from "../../@/components/ui/button";
 
-const FooterA = () => {
+const CallToAction = () => {
   return (
     <div className="bg-[var(--color-neutral-100)] w-full flex flex-col justify-center text-center">
       <div className="flex justify-center">
@@ -30,4 +30,4 @@ const FooterA = () => {
   );
 };
 
-export default FooterA;
+export default CallToAction;
