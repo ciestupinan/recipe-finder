@@ -24,7 +24,12 @@ const Homepage = () => {
   return (
     <div className="bg-[var(--color-neutral-100)] w-full flex flex-col justify-center text-center relative">
       <div className="mb-[var(--spacing-150)] mt-[var(--spacing-1000)]">
-        <h1>Healthy meals, zero fuss</h1>
+        <h1>
+          <span className="after:-z-1 after:bg-[var(--color-orange)]/40 after:rounded-lg relative after:absolute after:left-0 after:bottom-3 after:w-full after:h-[40px] z-0">
+            Healthy
+          </span>{" "}
+          meals, zero fuss
+        </h1>
       </div>
       <div className="flex justify-center mb-[var(--spacing-500)]">
         <div className="w-[580px]">
@@ -37,7 +42,11 @@ const Homepage = () => {
       <div className="flex justify-center mb-[var(--spacing-1000)]">
         <Button className="w-fit">Start exploring</Button>
       </div>
-      <img className="absolute w-full z-1 top-[150px]" src="src/assets/images/pattern-squiggle-1.svg" alt="squiggle pattern" />
+      <img
+        className="absolute w-full z-1 top-[150px]"
+        src="src/assets/images/pattern-squiggle-1.svg"
+        alt="squiggle pattern"
+      />
       <div className="flex justify-center items-center mb-[var(--spacing-1200)] z-2">
         <div className="w-[1192px] border-[12px] rounded-xl border-[var(--color-neutral-0)]">
           <img
