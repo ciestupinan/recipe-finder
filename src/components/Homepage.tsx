@@ -1,4 +1,4 @@
-import { Button } from "../@/components/ui/button";
+import { Button } from "../../@/components/ui/button";
 
 const Homepage = () => {
   return (
@@ -18,9 +18,9 @@ const Homepage = () => {
         <Button className="w-fit">Start exploring</Button>
       </div>
       <div className="flex justify-center items-center mb-[var(--spacing-1200)]">
-        <div className="w-[1192px] border-[12px] rounded-md border-[var(--color-neutral-0)]">
+        <div className="w-[1192px] border-[12px] rounded-xl border-[var(--color-neutral-0)]">
           <img
-            className="rounded-md"
+            className="rounded-xl"
             src="src/assets/images/image-home-hero-large.webp"
           />
         </div>
@@ -30,14 +30,14 @@ const Homepage = () => {
       </div>
       <div className="flex justify-center gap-[var(--spacing-400)] text-left mb-[var(--spacing-1200)]">
         <div className="flex flex-col w-[376px]">
-          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-md justify-center items-center mb-[var(--spacing-300)]">
+          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-xl justify-center items-center mb-[var(--spacing-300)]">
             <img src="src/assets/images/icon-whole-food-recipes.svg" />
           </div>
           <h3 className="mb-[var(--spacing-150)]">Whole-food recipes</h3>
           <h5>Each dish uses everyday, unprocessed ingredients.</h5>
         </div>
         <div className="flex flex-col w-[376px]">
-          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-md justify-center items-center mb-[var(--spacing-300)]">
+          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-xl justify-center items-center mb-[var(--spacing-300)]">
             <img src="src/assets/images/icon-minimum-fuss.svg" />
           </div>
           <h3 className="mb-[var(--spacing-150)]">Minimum fuss</h3>
@@ -46,7 +46,7 @@ const Homepage = () => {
           </h5>
         </div>
         <div className="flex flex-col w-[376px]">
-          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-md justify-center items-center mb-[var(--spacing-300)]">
+          <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-xl justify-center items-center mb-[var(--spacing-300)]">
             <img src="src/assets/images/icon-search-in-seconds.svg" />
           </div>
           <h3 className="mb-[var(--spacing-150)]">Search in seconds</h3>
@@ -72,7 +72,7 @@ const Homepage = () => {
           </div>
           <div>
             <img
-              className="rounded-md"
+              className="rounded-xl"
               src="src/assets/images/image-home-real-life-large.webp"
             />
           </div>
