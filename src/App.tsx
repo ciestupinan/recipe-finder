@@ -1,8 +1,8 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/shared/Navbar";
 import Homepage from "./components/Homepage";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
+import CallToAction from "./components/shared/CallToAction";
+import Footer from "./components/shared/Footer";
 
 function App() {
   return (

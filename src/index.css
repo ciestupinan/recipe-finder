@@ -1,3 +1,7 @@
+.root{
+  width: 100%;
+}
+
 @font-face {
   font-family: Nunito;
   src: url("../src/assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
