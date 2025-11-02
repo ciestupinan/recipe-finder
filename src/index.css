@@ -12,7 +12,6 @@
 }
 @import "tailwindcss";
 @import "tw-animate-css";
-/* @import url(/Users/cristinaestupinan/src/recipe-finder/src/assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf) format("ttf"); */
 
 @theme {
   --color-neutral-100: #f6f5f1;
