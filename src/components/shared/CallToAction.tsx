@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router";
 import { Button } from "../../../@/components/ui/button";
+import { ROUTE_RECIPES } from "../../constants";
 
 const CallToAction = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-[var(--color-neutral-100)] w-full flex flex-col justify-center text-center">
       <div className="flex justify-center">
@@ -21,7 +25,14 @@ const CallToAction = () => {
               Hit the button, pick a recipe, and get dinner on the table—fast.
             </h5>
             <div className="flex justify-center">
-              <Button className="w-fit">Browse recipes</Button>
+              <Button
+                className="w-fit"
+                onClick={() => {
+                  navigate(ROUTE_RECIPES);
+                }}
+              >
+                Browse recipes
+              </Button>
             </div>
           </div>
         </div>

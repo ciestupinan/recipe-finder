@@ -67,7 +67,14 @@ const Navbar = () => {
                     ))}
                   </ul>
                   <div className="flex items-center mt-[var(--spacing-150)]">
-                    <Button className="w-full">Browse recipes</Button>
+                    <Button
+                      className="w-full"
+                      onClick={() => {
+                        navigate(ROUTE_RECIPES);
+                      }}
+                    >
+                      Browse recipes
+                    </Button>
                   </div>
                 </div>
                 <Popover.Arrow className="PopoverArrow" />
