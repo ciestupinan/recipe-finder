@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Homepage from "./components/Homepage";
-import AboutPage from "./components/AboutPage";
+import AboutPage from "./components/AboutPage/AboutPage";
 import RecipePage from "./components/RecipePage";
 import { ROUTE_ABOUT, ROUTE_HOME, ROUTE_RECIPES } from "./constants";
 
