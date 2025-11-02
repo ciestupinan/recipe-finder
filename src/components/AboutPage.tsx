@@ -30,10 +30,9 @@ const AboutPage = () => {
       </div>
       <div className="my-[var(--spacing-1200)] flex">
         <div className="flex">
-                    <h2>Why we exist</h2>
-<div></div>
+          <h2>Why we exist</h2>
+          <div></div>
         </div>
-
       </div>
       <CallToAction />
       <Footer />
