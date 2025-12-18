@@ -62,7 +62,7 @@ const Homepage = () => {
           alt="squiggle pattern"
         />
         <div className="flex justify-center items-center mb-[var(--spacing-1200)] z-2">
-          <div className="w-[1192px] border-[12px] rounded-xl border-[var(--color-neutral-0)]">
+          <div className="w-[1192px] border-[12px] rounded-xl border-[var(--color-white)]">
             <img
               className="rounded-xl"
               src="src/assets/images/image-home-hero-large.webp"
@@ -75,7 +75,7 @@ const Homepage = () => {
         <div className="flex justify-center gap-[var(--spacing-400)] text-left mb-[var(--spacing-1200)]">
           {CALLOUT_ITEMS.map((item) => (
             <div className="flex flex-col w-[376px]" key={item.title}>
-              <div className="flex bg-[var(--color-neutral-0)] w-[60px] h-[60px] rounded-xl justify-center items-center mb-[var(--spacing-300)]">
+              <div className="flex bg-[var(--color-white)] w-[60px] h-[60px] rounded-xl justify-center items-center mb-[var(--spacing-300)]">
                 <img src={item.img} />
               </div>
               <h3 className="mb-[var(--spacing-150)]">{item.title}</h3>

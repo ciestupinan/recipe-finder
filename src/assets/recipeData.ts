@@ -1,4 +1,4 @@
-interface Recipe {
+export interface Recipe {
   id: string;
   title: string;
   description: string;
@@ -9,9 +9,11 @@ interface Recipe {
     large: string;
     small: string;
   };
+  ingredients?: string[];
+  instructions?: string[];
 }
 
-const recipes: Recipe[] = [
+export const recipes: Recipe[] = [
   {
     id: "1",
     title: "Mediterranean Chickpea Salad",
@@ -24,6 +26,23 @@ const recipes: Recipe[] = [
       large: "src/assets/images/mediterranean-chickpea-salad-large.webp",
       small: "src/assets/images/mediterranean-chickpea-salad-small.webp",
     },
+    ingredients: [
+        "1 can (400 g) chickpeas, drained & rinsed",
+        "1 small cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 red bell pepper, diced",
+        "1/4 red onion, finely chopped",
+        "2 Tbsp fresh parsley, chopped",
+        "2 Tbsp extra-virgin olive oil",
+        "1 Tbsp fresh lemon juice",
+        "Sea salt & black pepper to taste"
+    ],
+    instructions: [
+        "In a large bowl combine chickpeas, cucumber, tomatoes, bell pepper, red onion and parsley.",
+        "Drizzle with olive oil and lemon juice.",
+        "Season with salt and pepper; toss to coat.",
+        "Serve immediately or chill up to 2 days."
+    ]
   },
   {
     id: "2",

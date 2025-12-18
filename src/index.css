@@ -1,9 +1,10 @@
-.root{
+.root {
   width: 100%;
 }
 
-body{
+body {
   background-color: #f6f5f1;
+  font-family: "Nunito", sans-serif;
 }
 
 @font-face {
@@ -19,11 +20,11 @@ body{
 
 @theme {
   --color-neutral-100: #f6f5f1;
-  --color-neutral-200: #E0E6E3;
+  --color-neutral-200: #e0e6e3;
   --color-neutral-300: #d0dcd9;
   --color-neutral-600: #395852;
   --color-neutral-900: #163a34;
-  --color-neutral-0: #ffffff;
+  --color-white: #ffffff;
   --color-orange: #fe9f6b;
   --color-teal: #49ac9b;
   --color-indigo: #697ddb;
@@ -59,11 +60,11 @@ h1 {
   font-weight: 800;
   color: var(--color-neutral-900);
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     font-size: 64px;
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     font-size: 52px;
   }
 }
@@ -76,7 +77,7 @@ h2 {
   font-weight: 800;
   color: var(--color-neutral-900);
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     font-size: 40px;
   }
 }
@@ -124,7 +125,7 @@ p {
   font-weight: 400;
   color: var(--color-neutral-900);
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     font-size: 14px;
   }
 }
