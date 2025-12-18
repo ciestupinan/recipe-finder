@@ -4,6 +4,7 @@ import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 import RecipeCard from "./RecipeCard";
 import PrepTimeDropdown from "./PrepTimeDropdown";
+import CookTimeDropdown from "./CookTimeDropdown";
 
 const RecipeListPage = () => {
   return (
@@ -23,6 +24,7 @@ const RecipeListPage = () => {
         </div>
       </div>
       <PrepTimeDropdown />
+      <CookTimeDropdown />
       <div className="flex w-full px-[var(--spacing-1600)]">
         <div className="flex w-full flex-wrap gap-[var(--spacing-400)]">
           {recipes?.map((r) => (

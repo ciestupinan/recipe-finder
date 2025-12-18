@@ -6,16 +6,16 @@ import {
   DropdownMenuTrigger,
 } from "../../../@/components/ui/dropdown-menu";
 
-const PREPTIMES = [0, 5, 10];
+const COOKTIMES = [0, 5, 10, 15, 20];
 
-const PrepTimeDropdown = () => {
-  const [prepChecked, setPrepChecked] = useState<number[]>([]);
+const CookTimeDropdown = () => {
+  const [cookChecked, setCookChecked] = useState<number[]>([]);
 
   return (
     <div className="flex w-full px-[var(--spacing-1600)]">
       <DropdownMenu>
         <DropdownMenuTrigger>
-          Max Prep Time
+          Max Cook Time
           <img
             src="src/assets/images/icon-chevron-down.svg"
             alt="Chevron Down"
@@ -23,19 +23,19 @@ const PrepTimeDropdown = () => {
           />
         </DropdownMenuTrigger>
         <DropdownMenuContent>
-          {PREPTIMES.map((p) => (
+          {COOKTIMES.map((c) => (
             <DropdownMenuCheckboxItem
-              checked={prepChecked.includes(p)}
+              checked={cookChecked.includes(c)}
               onCheckedChange={() => {
-                if (prepChecked.includes(p)) {
-                  const filtered = prepChecked.filter((x) => x !== p);
-                  setPrepChecked([...filtered]);
+                if (cookChecked.includes(c)) {
+                  const filtered = cookChecked.filter((x) => x !== c);
+                  setCookChecked([...filtered]);
                 } else {
-                  setPrepChecked((prev) => [...prev, p]);
+                  setCookChecked((prev) => [...prev, c]);
                 }
               }}
             >
-              {p} minutes
+              {c} minutes
             </DropdownMenuCheckboxItem>
           ))}
         </DropdownMenuContent>
@@ -44,4 +44,4 @@ const PrepTimeDropdown = () => {
   );
 };
 
-export default PrepTimeDropdown;
+export default CookTimeDropdown;
