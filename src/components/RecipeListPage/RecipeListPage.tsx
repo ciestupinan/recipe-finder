@@ -1,7 +1,9 @@
+
 import { recipes } from "../../assets/recipeData";
 import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 import RecipeCard from "./RecipeCard";
+import PrepTimeDropdown from "./PrepTimeDropdown";
 
 const RecipeListPage = () => {
   return (
@@ -20,6 +22,7 @@ const RecipeListPage = () => {
           </h5>
         </div>
       </div>
+      <PrepTimeDropdown />
       <div className="flex w-full px-[var(--spacing-1600)]">
         <div className="flex w-full flex-wrap gap-[var(--spacing-400)]">
           {recipes?.map((r) => (
